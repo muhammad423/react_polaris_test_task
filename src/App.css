@@ -1,0 +1,60 @@
+/* custom-styles.css */
+.Polaris-Navigation {
+  /* Change the background color */
+  color: " #fff"; /* Change the text color */
+}
+
+.Polaris-Navigation-Item {
+  padding: 10px 20px; /* Adjust the padding of navigation items */
+}
+
+.polaris-topBar {
+  background-color: #fff;
+}
+
+.Polaris-TopBar {
+  background-color: #fff;
+}
+
+.Polaris-TopBar .Polaris-TopBar__SearchField input[type="text"] {
+  background-color: #ccc;
+  color: #fff;
+  border: 1px solid #ccc;
+}
+.Polaris-TopBar-SearchField__Input {
+  background-color: #ffffff;
+  color: black !important;
+}
+
+.Polaris-TopBar-Menu__Activator {
+  background: transparent;
+}
+
+.Polaris-Navigation {
+  position: fixed;
+  /* top: 3rem; */
+}
+
+
+.input-container {
+  background-color: white;
+  padding: 5px 10px;
+} 
+
+
+.Polaris-InlineGrid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Polaris-Navigation__LogoContainer{
+  background-color: white;
+}
+
+@media  screen and (max-width: 1000px){
+  .Polaris-InlineGrid{
+    flex-wrap: wrap;
+
+  }
+}
